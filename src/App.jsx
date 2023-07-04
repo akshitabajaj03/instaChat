@@ -11,7 +11,7 @@ function App() {
     <AuthProvider>
     <Navbar/>
     <Routes>
-      <Route path="/" element={<Login/>} />
+      <Route path="/instaChat" element={<Login/>} />
       <Route path="/chat" element={ <PrivateRoute>
         <ChatRoom/>
         </PrivateRoute>} />

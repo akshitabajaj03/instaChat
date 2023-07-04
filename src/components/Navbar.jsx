@@ -13,9 +13,9 @@ const Navbar = () => {
   }
 
   return (
-    <div className="navbar bg-primary text-primary-content">
+    <div className="navbar bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-primary-content">
     <div className="containerWrap flex justify-between">
-    <a className="btn btn-ghost normal-case text-xl">instantChat</a>
+    <a className="text-gray-300 hover:text-white uppercase tracking-wide font-medium transition-colors duration-300 ease-in-out">instantChat</a>
     {currentUser ? <button onClick={handleLogout}>Logout</button>: ""}
   </div>
   </div>
